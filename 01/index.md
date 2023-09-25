@@ -2,7 +2,14 @@
 
 ## Resources
 
-- 
+- Digitalization, digital, digitality
+  - https://rolftodesco.wordpress.com/2016/03/16/digitalisierung/
+  - https://exorciser.ch/_media/di/ba20/digitech/floridi-analog-digital.pdf
+  - https://exorciser.ch/_media/di/ba20/digitech/digitalisierung_-_mehr_als_0_und_1_-_beat_dobeli_honegger.pdf
+  - https://www.omnisophie.com/dd273-neodigitalisierung-und-erstarrende-konzerne-august-2016/
+  - https://exorciser.ch/_media/di/ba22/digit/was_ist_digitalitaet-felix_stalder-2021.pdf
+  - https://de.wikipedia.org/wiki/Postdigital
+  - 
 
 ## Digital, digitalization and digitality
 
@@ -17,3 +24,6 @@ Digitalization is the process of taking processes that are made by hand or mecha
 
 ### What does the term "digitality" mean?
 
+todo
+
+### How do tools, machines, automats, computers and roboters differ?
