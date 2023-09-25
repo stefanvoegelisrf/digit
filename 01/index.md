@@ -24,6 +24,8 @@ Digitalization is the process of taking processes that are made by hand or mecha
 
 ### What does the term "digitality" mean?
 
-todo
+The term digitality refers to living in a digital society. 
 
 ### How do tools, machines, automats, computers and roboters differ?
+
+todo
