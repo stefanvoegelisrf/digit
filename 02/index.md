@@ -9,9 +9,22 @@
 - [YouTube - How do non-euclidean games work?](https://www.youtube.com/watch?v=lFEIUcXCEvI&ab_channel=DigiDigger)
 - [Geometry visualizations](https://twitter.com/ZenoRogue/status/1245367263936512001)
 
-## How to make something digital? - Music example
+## How to make something digital? - Vinyl records
 
-TODO - describe the digitalization
+1. Turntable Setup
+   - Utilize a turntable to play the vinyl, ensuring it's connected to a computer.
+2. Pre-Amplification
+   - Use a pre-amplifier to boost the analog signals from the turntable.
+3. Analog-to-Digital Conversion
+   - Employ an ADC to convert the boosted analog signal into a digital format.
+4. Recording
+   - Play the vinyl, recording its output using computer software, and ensure clean sound by adjusting levels and minimizing noise.
+5. Track Separation and Cleaning
+   - In the software, split the recording into individual tracks and utilize tools to reduce any surface noise from the vinyl.
+6. Encoding
+   - Save the cleaned audio in a desired digital format (e.g., MP3, WAV), adding relevant metadata
+7. Storage and Playback
+   - Store the digital files securely and enjoy playback on various digital devices.
 
 ## Discretization
 
