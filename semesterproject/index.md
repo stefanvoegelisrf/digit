@@ -25,7 +25,9 @@ Create 1 video for each term/principle/idea and create a TikTok-Style video, whi
 
 - 
 
-## Term 2:
+## Term 2: facial action coding system
+
+### Description
 
 ## Term 3:
 
