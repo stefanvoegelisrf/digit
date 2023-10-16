@@ -155,4 +155,4 @@ There are three ways to retrieve an IPFS document. Either directly ```ipfs://<CI
 
 ### Barcodes
 
-A bar code is a onedimensional coding system.
+A bar code is a onedimensional coding system. It is machine readable. Barcodes represent data by varying the widths, spacings and sizes of parallel lines.
