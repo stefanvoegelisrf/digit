@@ -1,5 +1,16 @@
 # 25.09.2023
 
+- [25.09.2023](#25092023)
+  - [Resources](#resources)
+  - [Digital, digitalization and digitality](#digital-digitalization-and-digitality)
+    - [What does the term "digital" mean?](#what-does-the-term-digital-mean)
+      - [What is "post-digital"?](#what-is-post-digital)
+    - [What does the term "digitalzation" mean?](#what-does-the-term-digitalzation-mean)
+      - [What is "neo-digitalization"?](#what-is-neo-digitalization)
+    - [What does the term "digitality" mean?](#what-does-the-term-digitality-mean)
+    - [How do tools, machines, automats, computers and roboters differ?](#how-do-tools-machines-automats-computers-and-roboters-differ)
+
+
 ## Resources
 
 - Digitalization, digital, digitality

@@ -1,5 +1,19 @@
 # 02.10.2023
 
+- [02.10.2023](#02102023)
+  - [Resources](#resources)
+  - [How to make something digital? - Vinyl records](#how-to-make-something-digital---vinyl-records)
+  - [Discretization](#discretization)
+    - [How is the 3D sound decomposed in the new 3D formats?](#how-is-the-3d-sound-decomposed-in-the-new-3d-formats)
+    - [Excercises](#excercises)
+      - [1a](#1a)
+        - [What is Euclidean geometry?](#what-is-euclidean-geometry)
+          - [Euclid's axioms](#euclids-axioms)
+      - [1b](#1b)
+      - [1c](#1c)
+      - [1d, 1e, 1f](#1d-1e-1f)
+
+
 ## Resources
 
 - [Fourier transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)

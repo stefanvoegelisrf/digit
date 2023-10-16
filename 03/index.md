@@ -1,5 +1,15 @@
 # 09.10.2023
 
+- [09.10.2023](#09102023)
+  - [Coding](#coding)
+    - [Colors and their coding](#colors-and-their-coding)
+      - [RGB](#rgb)
+        - [Silver, gold and metallic colors](#silver-gold-and-metallic-colors)
+      - [CMYK](#cmyk)
+      - [Subjective perception](#subjective-perception)
+    - [Facial action coding system](#facial-action-coding-system)
+
+
 ## Coding
 
 ### Colors and their coding
@@ -42,3 +52,6 @@ To print with CMYK, first the cyan part of the image is printed, then the magent
 The preceived color is not only dependent on the color intensity. It relates also to the surrounding colors.. Therefore a color with the same color values can appear brighter or less brighter depending on its location.
 
 ![Image showing the subjective perception of color](subjective-color.png)
+
+### Facial action coding system
+
