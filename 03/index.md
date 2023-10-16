@@ -33,6 +33,10 @@ Even though, there are rgb colors for silver(#C0C0C0) and gold(#ffd700), they do
 
 #### CMYK
 
+The rgb color system is not suitable for printing as it is additive and works when the background is dark.
+For printing, the surface/background is normally white and it makes sense to use a different color system to get accurate colors. The CYMK color system is subtractive.
+To print with CMYK, first the cyan part of the image is printed, then the magenta, then yellow and finally the key, meaning the black part.
+
 #### Subjective perception
 
 The preceived color is not only dependent on the color intensity. It relates also to the surrounding colors.. Therefore a color with the same color values can appear brighter or less brighter depending on its location.
