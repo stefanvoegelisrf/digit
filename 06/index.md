@@ -6,6 +6,7 @@
   - [Differentiating terms: Tool, machine, automat, computer, roboter](#differentiating-terms-tool-machine-automat-computer-roboter)
     - [Trivial automat according to Von Förster](#trivial-automat-according-to-von-förster)
     - [Non-trivial automat according to Von Förster](#non-trivial-automat-according-to-von-förster)
+    - [Finite state machine](#finite-state-machine)
 
 ## Resources
 
@@ -36,3 +37,12 @@ A non-trivial automat is defined as:
 - can't be defined by analysis
 - is defined by synthesis
 - can't be predicted(blackbox)
+
+### Finite state machine
+
+A finite state machine is defined by:
+- a finite amount of states
+- a finite amount of events
+- a start state
+- a funtion which defines the next state based on the current state
+- a finite amount of end states
