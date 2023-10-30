@@ -4,6 +4,8 @@
   - [Resources](#resources)
   - [Preparation](#preparation)
   - [Differentiating terms: Tool, machine, automat, computer, roboter](#differentiating-terms-tool-machine-automat-computer-roboter)
+    - [Trivial automat according to Von Förster](#trivial-automat-according-to-von-förster)
+    - [Non-trivial automat according to Von Förster](#non-trivial-automat-according-to-von-förster)
 
 ## Resources
 
@@ -18,3 +20,19 @@ In these chapters, Daniel Hillis provides an overview of boolean logic. He expla
 **Tools** are used by hand. If we add a **motor**, we can call it a **machine**. If we **control** the machine **automatically**, we have an **automat**. Automats have a **fixed control structure** which is dependent on the **state** of the automat. The fixed control structure can be shown as a construction diagram.
 What differentiates the automat from the computer is that the computer is **programmable**. When adding a **body**, we are talking about a robot. The body is defined by having **sensors** and **actors**. The body does not need to be physical. Through the body, the roboter has **agency** and also some sort of **intelligence**.
 
+### Trivial automat according to [Von Förster](https://de.wikipedia.org/wiki/Heinz_von_Foerster)
+
+A trivial automat is defined as:
+- independent of the past
+- can be defined by analysis
+- can be defined by synthesis
+- is predictable
+
+### Non-trivial automat according to [Von Förster](https://de.wikipedia.org/wiki/Heinz_von_Foerster)
+
+A non-trivial automat is defined as:
+- having inner state
+- is dependent of the past
+- can't be defined by analysis
+- is defined by synthesis
+- can't be predicted(blackbox)
