@@ -128,3 +128,39 @@ class Program
 
 In this example, the `PriorityQueue` class is used to create a min heap. Elements are enqueued with their priorities, and when dequeued, elements with the lowest priority (in this case, the smallest number) are removed first.
 
+### Queue
+
+A **[queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))** is a data structure that operates on the First In, First Out (FIFO) principle. It's similar to a real-life queue where the first person to enter is the first one to leave. Queues are essential in situations where data is processed in the order it arrives, such as in task scheduling, buffering, and breadth-first search algorithms.
+
+C# example demonstrating a queue:
+
+```csharp
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        Queue<string> queue = new Queue<string>();
+
+        // Enqueueing elements into the queue
+        queue.Enqueue("First");
+        queue.Enqueue("Second");
+        queue.Enqueue("Third");
+
+        // Displaying the front element
+        Console.WriteLine($"Front element: {queue.Peek()}");
+
+        // Dequeueing elements from the queue
+        while (queue.Count > 0)
+        {
+            Console.WriteLine($"Dequeued: {queue.Dequeue()}");
+        }
+    }
+}
+```
+
+In this example, strings are enqueued into the queue and then dequeued in the same order they were added. The `Peek` method is used to view the front element without removing it.
+
+TODO: Map, graph, streams
