@@ -1,6 +1,18 @@
 # 13.11.2023
 
-## Resources
+- [13.11.2023](#13112023)
+  - [Data structures](#data-structures)
+    - [Record/Struct](#recordstruct)
+      - [C# Example of a Record](#c-example-of-a-record)
+    - [Object](#object)
+      - [C# example:](#c-example)
+    - [Stack](#stack)
+    - [Set](#set)
+    - [Heap](#heap)
+    - [Queue](#queue)
+  - [Map/Dictionary](#mapdictionary)
+  - [Graph](#graph)
+  - [Streams](#streams)
 
 ## Data structures
 
@@ -61,26 +73,20 @@ C# example demonstrating a stack:
 using System;
 using System.Collections.Generic;
 
-class Program
+Stack<int> stack = new Stack<int>();
+
+// Pushing elements onto the stack
+stack.Push(1);
+stack.Push(2);
+stack.Push(3);
+
+// Displaying the top element
+Console.WriteLine($"Top element: {stack.Peek()}");
+
+// Popping elements from the stack
+while (stack.Count > 0)
 {
-    static void Main()
-    {
-        Stack<int> stack = new Stack<int>();
-
-        // Pushing elements onto the stack
-        stack.Push(1);
-        stack.Push(2);
-        stack.Push(3);
-
-        // Displaying the top element
-        Console.WriteLine($"Top element: {stack.Peek()}");
-
-        // Popping elements from the stack
-        while (stack.Count > 0)
-        {
-            Console.WriteLine($"Popped: {stack.Pop()}");
-        }
-    }
+    Console.WriteLine($"Popped: {stack.Pop()}");
 }
 ```
 
@@ -105,24 +111,18 @@ Here's a small C# example demonstrating a min heap using a priority queue (as C#
 using System;
 using System.Collections.Generic;
 
-class Program
+// Creating a min heap using a priority queue
+PriorityQueue<int, int> minHeap = new PriorityQueue<int, int>();
+
+// Adding elements
+minHeap.Enqueue(10, 10);
+minHeap.Enqueue(5, 5);
+minHeap.Enqueue(15, 15);
+
+// Removing elements (always removes the smallest element)
+while (minHeap.Count > 0)
 {
-    static void Main()
-    {
-        // Creating a min heap using a priority queue
-        PriorityQueue<int, int> minHeap = new PriorityQueue<int, int>();
-
-        // Adding elements
-        minHeap.Enqueue(10, 10);
-        minHeap.Enqueue(5, 5);
-        minHeap.Enqueue(15, 15);
-
-        // Removing elements (always removes the smallest element)
-        while (minHeap.Count > 0)
-        {
-            Console.WriteLine($"Removed: {minHeap.Dequeue()}");
-        }
-    }
+    Console.WriteLine($"Removed: {minHeap.Dequeue()}");
 }
 ```
 
@@ -138,29 +138,90 @@ C# example demonstrating a queue:
 using System;
 using System.Collections.Generic;
 
-class Program
+Queue<string> queue = new Queue<string>();
+
+// Enqueueing elements into the queue
+queue.Enqueue("First");
+queue.Enqueue("Second");
+queue.Enqueue("Third");
+
+// Displaying the front element
+Console.WriteLine($"Front element: {queue.Peek()}");
+
+// Dequeueing elements from the queue
+while (queue.Count > 0)
 {
-    static void Main()
-    {
-        Queue<string> queue = new Queue<string>();
-
-        // Enqueueing elements into the queue
-        queue.Enqueue("First");
-        queue.Enqueue("Second");
-        queue.Enqueue("Third");
-
-        // Displaying the front element
-        Console.WriteLine($"Front element: {queue.Peek()}");
-
-        // Dequeueing elements from the queue
-        while (queue.Count > 0)
-        {
-            Console.WriteLine($"Dequeued: {queue.Dequeue()}");
-        }
-    }
+    Console.WriteLine($"Dequeued: {queue.Dequeue()}");
 }
 ```
 
 In this example, strings are enqueued into the queue and then dequeued in the same order they were added. The `Peek` method is used to view the front element without removing it.
 
-TODO: Map, graph, streams
+## Map/Dictionary
+
+A "Map" or "Dictionary" is a data structure that stores data in key-value pairs, where each key is unique. This allows for efficient data retrieval, as the value associated with any given key can be quickly accessed. Maps are widely used for tasks such as indexing, caching, and managing configurations, where quick lookup and modification of data based on keys are essential.
+
+In the context of C#, this concept is implemented through the Dictionary<TKey, TValue> class. The TKey represents the type of the keys and TValue the type of the values. It offers fast lookups and can be iterated over.
+
+Here's a C# example demonstrating a dictionary:
+
+```csharp
+using System;
+using System.Collections.Generic;
+
+// Creating a dictionary
+Dictionary<string, int> ages = new Dictionary<string, int>
+{
+    ["Alice"] = 30,
+    ["Bob"] = 25
+};
+
+// Accessing and displaying a value
+Console.WriteLine($"Alice's age: {ages["Alice"]}");
+```
+
+## Graph
+
+A Graph is a fundamental data structure in computer science, consisting of a set of nodes (also called vertices) and a set of edges that connect pairs of nodes. Graphs are used to represent networks, like social networks, computer networks, and abstract models of relationships between entities. Edges can be either directed (indicating a one-way relationship) or undirected. Graphs can also be weighted, assigning a cost or value to traversing an edge. Common graph algorithms include searching (like DFS and BFS), pathfinding (like Dijkstra's algorithm), and finding shortest paths.
+
+Here's a simple example in C# using a basic representation:
+
+```csharp
+var graph = new Dictionary<string, List<string>> {
+    { "A", new List<string> { "B", "C" } },
+    { "B", new List<string> { "A", "D" } },
+    { "C", new List<string> { "A" } },
+    { "D", new List<string> { "B" } }
+};
+
+// Displaying nodes and their connections
+foreach (var node in graph)
+{
+    Console.WriteLine($"{node.Key}: {String.Join(", ", node.Value)}");
+}
+```
+
+In this example, a simple undirected graph is created where each node (a string) has a list of adjacent nodes, representing connections between them.
+
+## Streams
+
+Streams in programming are abstractions used for reading from and writing to different input/output sources sequentially. They are essential in handling data flow, especially when dealing with large amounts of data or with sources like files, network connections, and inter-process communication. Streams can be readable, writable, or both, and they can handle different data types, like bytes or characters. Stream operations in many languages are blocking by default, meaning they pause execution until the operation completes, but asynchronous streams are also common.
+
+A basic C# example using a FileStream to read data:
+
+```csharp
+using System;
+using System.IO;
+
+string path = "example.txt";
+using FileStream stream = File.OpenRead(path);
+byte[] buffer = new byte[1024];
+int bytesRead;
+
+while ((bytesRead = stream.Read(buffer, 0, buffer.Length)) > 0)
+{
+    Console.WriteLine($"Read {bytesRead} bytes");
+}
+```
+
+In this example, a `FileStream` is used to read data from a file named "example.txt". Data is read into a buffer, and the process continues until there's no more data to read.
