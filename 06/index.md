@@ -16,6 +16,7 @@
     - [Central processing unit(CPU)](#central-processing-unitcpu)
     - [Co-processors](#co-processors)
       - [NVIDIA RTX GPUs](#nvidia-rtx-gpus)
+        - [CUDA](#cuda)
         - [Raytracing](#raytracing)
         - [DLSS](#dlss)
         - [Tensor-cores](#tensor-cores)
@@ -106,6 +107,10 @@ There are some specific co-processors:
 #### NVIDIA RTX GPUs
 
 [NVIDIA RTX GPUs](https://www.nvidia.com/de-de/geforce/rtx/) are advanced graphics cards that combine different processors and techniques to provide high-performance gaming, professional visualization, and AI-enhanced applications. They are known for their ability to render realistic lighting, shadows, and reflections through ray tracing technology.
+
+##### CUDA
+
+[CUDA](https://developer.nvidia.com/cuda-toolkit) (formerly known as Compute Unified Device Architecture) is an API developed by Nvidia, with which program parts can be processed by the GPU. Additional computing capacity is provided in the form of the GPU, whereby the GPU generally works significantly faster than the CPU for highly parallelizable program sequences (high data parallelism). CUDA is primarily used for scientific and technical calculations.
 
 ##### Raytracing 
 
