@@ -24,7 +24,7 @@ function setup() {
 
 /** Draws a single snowflake arm */
 function drawSnowflakeArm() {
-    // Divide the arm into 10 sections
+    // Divide the arm into 1 section
     const sections = 1;
     // Set the armlength to 100 pixels
     const armLength = 100;
