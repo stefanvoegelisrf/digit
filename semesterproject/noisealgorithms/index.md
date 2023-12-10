@@ -1,6 +1,7 @@
 # Noise generation algorithms
 - [Noise generation algorithms](#noise-generation-algorithms)
   - [Perlin Noise](#perlin-noise)
+  - [Snowflakes sketch](#snowflakes-sketch)
   - [Text version 1](#text-version-1)
   - [Text version 2](#text-version-2)
     - [Prompt for ChatGPT(GPT-4)](#prompt-for-chatgptgpt-4)
@@ -14,6 +15,10 @@ https://corvin-rose.de/blog/perlin-noise
 https://adrianb.io/2014/08/09/perlinnoise.html
 https://cs.nyu.edu/~perlin/noise/
 https://github.com/ashima/webgl-noise
+
+## Snowflakes sketch
+
+To create the snowflakes, there is a p5js sketch created: [Snowflakes](snowflakes)
 
 
 ## Text version 1

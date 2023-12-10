@@ -7,7 +7,7 @@ function setup() {
     // noiseSeed(95);
     // noiseSeed(98);
     noiseSeed(135);
-    createCanvas(400, 400);
+    createCanvas(windowWidth, windowHeight);
     background(0);
 
     translate(width / 2, height / 2);

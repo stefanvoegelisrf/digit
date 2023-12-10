@@ -1,6 +1,6 @@
 # Snowflakes sketch
 
-This sketch contains an algorithm to draw a snowflake with noise variation.
+This sketch contains an algorithm to draw a snowflake with noise variation. View the sketch here: [Snowflakes](index.html)
 
 ## Setup
 
