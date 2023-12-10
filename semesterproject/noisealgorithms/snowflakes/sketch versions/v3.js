@@ -1,19 +1,9 @@
 /** Setup function is called by p5 once */
 function setup() {
-    // Default seed value is 135
-    let seedValue = 135;
-    // Seed value can be overwritten in the URL
-    let params = getURLParams();
-    if (params.seed) {
-        seedValue = params.seed;
-    }
-    // Set the noise seed value to get the same snowflake every time
-    noiseSeed(seedValue);
     // Create a canvas that fills the browser window
     createCanvas(windowWidth, windowHeight);
     // Set black as the background color
     background(0);
-
     // Move the origin to the center of the canvas
     translate(width / 2, height / 2);
     // Set the stroke color to white
@@ -25,17 +15,8 @@ function setup() {
     const arms = 6;
 
     for (let armIndex = 0; armIndex < arms; armIndex++) {
-        // Draw the right part of an arm
         push();
         rotate(TWO_PI / arms * armIndex);
-        drawSnowflakeArm();
-        pop();
-
-        // Draw the left part of an arm
-        push();
-        rotate(TWO_PI / arms * armIndex + PI / arms);
-        // Flip the arm horizontally
-        scale(-1, 1);
         drawSnowflakeArm();
         pop();
     }
