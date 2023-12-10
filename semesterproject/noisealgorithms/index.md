@@ -20,6 +20,16 @@ https://github.com/ashima/webgl-noise
 
 To create the snowflakes, there is a p5js sketch created: [Snowflakes](snowflakes)
 
+The sketch allows for minimal configuration with query params, specifically the noise seed. See some examples here
+- [Seed 38](snowflakes/index.html?seed=38)
+- [Seed 58](snowflakes/index.html?seed=58)
+- [Seed 78](snowflakes/index.html?seed=78)
+- [Seed 89](snowflakes/index.html?seed=89)
+- [Seed 94](snowflakes/index.html?seed=94)
+- [Seed 95](snowflakes/index.html?seed=95)
+- [Seed 98](snowflakes/index.html?seed=98)
+- [Seed 135](snowflakes/index.html?seed=135)
+
 
 ## Text version 1
 

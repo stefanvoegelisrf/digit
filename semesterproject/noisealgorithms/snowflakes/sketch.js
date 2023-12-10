@@ -1,12 +1,10 @@
 function setup() {
-    // noiseSeed(38);
-    // noiseSeed(58);
-    // noiseSeed(78);
-    // noiseSeed(89);
-    // noiseSeed(94);
-    // noiseSeed(95);
-    // noiseSeed(98);
-    noiseSeed(135);
+    let noiseSeedValue = 135;
+    let params = getURLParams();
+    if (params.seed) {
+        noiseSeedValue = params.seed;
+    }
+    noiseSeed(noiseSeedValue);
     createCanvas(windowWidth, windowHeight);
     background(0);
 
