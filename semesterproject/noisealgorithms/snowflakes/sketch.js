@@ -20,6 +20,7 @@ function setup() {
     stroke(255);
     // Set the stroke weight to 2 pixels
     strokeWeight(2);
+    scale(4);
 
     // Draw six arms of the snowflake
     const arms = 6;

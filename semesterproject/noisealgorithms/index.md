@@ -6,6 +6,7 @@
   - [Text version 2](#text-version-2)
     - [Prompt for ChatGPT(GPT-4)](#prompt-for-chatgptgpt-4)
     - [Result](#result)
+  - [Text version 3](#text-version-3)
   - [Video sequences](#video-sequences)
 
 
@@ -46,6 +47,10 @@ It‘s finally winter time. So I made a cute little snow filter. You can use it 
 Combined multiple text parts of the generated version
 
 Winter wonderland alert! I crafted this adorable snow filter and you're all invited to join the fun! Here’s how I did it: I kicked off with something super cool called an algorithm. I checked out various snowflakes and brainstormed a plan to sketch them out. Kick off with lines shooting out from the center, then get down to the fine details. But hey, every snowflake is its own kind of awesome, so nailing down an algorithm for lifelike snowflakes was kinda tricky. But hey, algorithms aren't about perfect reality; they're about getting super close. And mine? It turned out pretty darn cute! Next up, I brought this baby into Spark Studio (yep, that's from Meta - the folks behind Facebook, Instagram, and WhatsApp). I told it to cook up thousands of these snowflakes and scatter them all over my virtual space. Then came the snowfall part. But they were all dropping at the same speed – kinda meh, right? Enter the noise algorithm: it mixed up their speed, position, and twirl in a nearly random way. Voilà, way better! It's not 100% real, but oh, it's a stunning effect. Noise algorithms aren’t just for this; they're behind cool stuff like Minecraft worlds and more. And guess what? There are loads of algorithms shaping your life – from finding the best train routes to maybe even suggesting this video to you!
+
+## Text version 3
+
+Winter wonderland alert! I crafted this adorable snow filter and you're all invited to join the fun! Here’s how I did it: I kicked off with something super cool called an algorithm. I checked out various snowflakes and brainstormed a plan to sketch them out. Kick off with lines shooting out from the ce nter, then get down to the fine details by drawing points with almost random coordinates. For my example, I used 10 points. So, to get points which values are not completely random, but instead relative to each other, we can use a noise value created from the perlin noise algorithm. As you know, every snowflake is its own kind of awesome, so nailing down an algorithm for lifelike snowflakes was kinda tricky. But hey, algorithms aren't about perfect reality; they're about getting super close. And mine? It turned out pretty darn cute! Next up, I brought this baby into Spark Studio (yep, that's from Meta - the folks behind Facebook, Instagram, and WhatsApp). I told it to cook up thousands of these snowflakes and scatter them all over my virtual space. Then came the snowfall part. But they were all dropping at the same speed – kinda meh, right? I crafted another algorithm: it mixed up their speed, position, and twirl in a random way. Voilà, way better! It's not 100% real, but oh, it's a stunning effect. Noise algorithms aren’t just for this; they're behind cool stuff like Minecraft worlds and more. And guess what? There are loads of other algorithms shaping your life – from finding the best train routes to maybe even suggesting this video to you!
 
 ## Video sequences
 
