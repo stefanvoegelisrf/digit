@@ -11,10 +11,10 @@
 
 ## Perlin Noise
 
-https://corvin-rose.de/blog/perlin-noise
-https://adrianb.io/2014/08/09/perlinnoise.html
-https://cs.nyu.edu/~perlin/noise/
-https://github.com/ashima/webgl-noise
+- [corvin-rose.de - Perlin noise](https://corvin-rose.de/blog/perlin-noise)
+- [adrianb.io - Perlin noise](https://adrianb.io/2014/08/09/perlinnoise.html)
+- [cs.nyu.edu - Perlin noise](https://cs.nyu.edu/~perlin/noise/)
+- [Github.com - WebGL noise](https://github.com/ashima/webgl-noise)
 
 ## Snowflakes sketch
 
