@@ -28,3 +28,7 @@ Digital goods are in its nature non-rivalising. Rivalising goods, for example fo
 ### Absence of marginal cost
 
 The production of the first speciman of e.g. a digital Book is high. The cost of reproduction is nearly free. This applies to digital goods as well as to familiarization of a new system. Entry cost is high, but every additional part is massively more cost attractive. This applies for example for 
+
+https://a16z.com/beyond-metcalfes-law-for-network-effects/
+
+TODO: copy and translate notes from exorciser
