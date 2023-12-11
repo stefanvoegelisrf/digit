@@ -37,7 +37,7 @@ Now you know that redundancy is very helpful in information technology and why (
 
 **Introduction:**
 
-Text: "The subtitles you're reading right now are an example of redundancy."
+Text: "Did you know? The subtitles you're reading right now are an example of redundancy."
 Action: Stefan reading this line and pointing down at the subtitles
 
 Text: "But what exactly is redundancy? In simple terms, redundancy means having something extra that isn't absolutely necessary, but it's there to provide backup or support."
@@ -61,4 +61,4 @@ Action: Split screen with one person watching the video but unable to hear it an
 "In front of these servers, we use a tool called a 'load balancer.' It directs user requests across all servers evenly. This not only prevents any one server from being overloaded but also ensures that if a server fails, the network keeps running smoothly."
 
 **Conclusion and Seamless Loop into Introduction:**
-"If some servers crash, others step in, making sure you can continue social media doom scrolling isn't interrupted. This is the beauty of redundancy in IT - it's all about continuous service and reliability. Just like these subtitles, redundancy might not always seem essential, but it's always there, ensuring everything works seamlessly. This is why the subtitles that you are reading right now...."(ending creates a loop)
+"If some servers crash, others step in, making sure you can continue to doom scroll in your social media feed. This is the beauty of redundancy in IT - it's all about continuous service and reliability. Just like these subtitles, redundancy might not always seem essential, but it's always there, ensuring everything works seamlessly. Buut.."
