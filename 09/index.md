@@ -14,27 +14,33 @@
 - [Programming paradigms](#programming-paradigms)
   - [Excercise 3](#excercise-3)
     - [Answer](#answer-2)
-- [Complexity of languages](#complexity-of-languages)
 
 ## From tool to agent
-
-TODO: see https://exorciser.ch/di/ba23/digit/vom-werkzeug-zum-agent
+In previous lessons, the following progressions have been described which increase automation, complexity and freedom:
+- Tool + Engine -> Machine
+  - A tool is driven by hand
+  - A machine is driven by an engine
+- Machine + Control/Regulation -> Automat
+  - A machine is controlled by hand
+  - An automat is controlled by hardware
+- Automat + Programming -> Computer
+  - A computer is controlled by software
+- Computer + Data -> AI
+  - AI is controlled by data
+- KI + Prompting -> Agent
 
 ## Formal languages
 
 ### Syntax
-
 Syntax deals with the relationship between characters. The syntax of a language consists of:
 - character set
 - dictionary
 - grammar
 
 ### Semantics
-
 Semantics is the meaning of language.
 
 ## Type of languages
-
 Most digital documents consist of four elements with their relative domain-specific languages
 
 |                          | Type of language | Web         | Microsoft Office            | Adobe InDesign |
@@ -45,8 +51,7 @@ Most digital documents consist of four elements with their relative domain-speci
 | Interaction              | Scripting        | JavaScript  | Visual Basic Script, Python |                |
 
 ### Excercise 1
-
-Was bedeuten die folgenden Zeilen am Anfang eines HTML Dokumentes?
+What is the purpose of the following parts of this HTML document?
 
 ```html
 <!DOCTYPE html>
@@ -59,28 +64,23 @@ Was bedeuten die folgenden Zeilen am Anfang eines HTML Dokumentes?
 </html> 
 ```
 
-Sind damit alle Aspekte die wir bisher besprochen haben definiert? Gibt es Elemente die implizit definiert sind?
+Regarding content, structure, presentation and interaction, are all of these elements covered?
 
 #### Answer
-
-Inhalt ist mit lang="de" angegeben. Die Codierung wird durch charset="UTF-8" definiert. Struktur wird durch <!DOCTYPE html> definiert. Hierbei handelt es sich um eine [Document type definition(DTD)](https://www.w3schools.com/xml/xml_dtd.asp), welche definiert welche Elemente erlaubt sind und wie sie strukturiert sein muss. Die Darstellung wird mit dem stylesheet geregelt. Die Interaktion ist gegeben durch das Einbinden des Javascript.
+The language of the content is defined by `lang=de`. The coding of the document is defined by `charset="UTF-8"`. The structure of the document is defined by `<!DOCTYPE html>` which is a [document type definition(DTD)](https://www.w3schools.com/xml/xml_dtd.asp). The DTD defined which elements are allowed and how they have to be structured. The presentation is defined by the stylesheet of the document. Interaction is achieved by including Javascript.
 
 ## Linguistic power
-
 Languages differ in their linguistic power - in the expressiveness of what they can describe. For formal languages, one measure of linguistic power is whether they are Turing Complete. Turing complete means that these languages can be used to program everything that today's classical computers can calculate.
 
 ### Excercise 2
-
-Ist CSS eine richtige Programmiersprache? Ja, ist CSS „turing vollständig“? Nutze dazu die gängigen Such-Tools.
+Is CSS a real programming language? Is it turing complete?
 
 #### Answer
+CSS (Cascading Style Sheets) is a Stylesheet-Language that is used to change the appearance and formatting of documents. These documents are written in a markup-language, often HTML. CSS in itself is not viewed a "real" programming language as it is primarly used for design and layout of websites.
 
-CSS (Cascading Style Sheets) ist eine Stylesheet-Sprache, die verwendet wird, um das Aussehen und die Formatierung von Dokumenten zu beschreiben, die in einer Markup-Sprache geschrieben sind, meist HTML. CSS an sich wird nicht als "richtige" Programmiersprache angesehen, da es in erster Linie für das Design und die Layoutgestaltung von Webseiten gedacht ist und nicht die typischen Merkmale einer vollständigen Programmiersprache wie Variablen, Bedingungen und Schleifen in der Art hat, wie sie in Sprachen wie JavaScript, Python, Java usw. zu finden sind.
-
-Der Begriff "Turing-vollständig" bezieht sich auf die Fähigkeit eines Systems, jede mögliche Berechnung durchzuführen, vorausgesetzt, es wird genügend Zeit und Speicher zur Verfügung gestellt. In diesem Sinne ist CSS nicht Turing-vollständig, wenn es isoliert betrachtet wird. Allerdings gab es Diskussionen und Experimente, die zeigen, dass wenn CSS in Kombination mit HTML verwendet wird (insbesondere unter Ausnutzung von HTML-Strukturen und Pseudo-Klassen), es möglich sein kann, Berechnungen zu erstellen, die theoretisch Turing-Vollständigkeit suggerieren könnten. Diese Experimente sind jedoch eher akademischer Natur und spiegeln nicht die praktische Verwendung oder den Zweck von CSS wider.
+Turing complete refers to the ability of a system to be able to do any possible calculation given there is enough time and memory available. If we look at CSS in an isolated way, CSS is not turing complete. In combination with HTML and a user interacting with it, this combination is turing complete. However, this has been achieved for academic purposes and does not mirror the actual usage of CSS.
 
 ## Programming paradigms
-
 - Impertive
   - Procedural
   - Object oriented
@@ -97,9 +97,3 @@ What programming paradigm is being used for p5js?
 #### Answer
 
 Primär prozedural, da ein klar definierter Ablauf mit Setup (1-mal Aufruf) und Draw(loop) existiert, deskriptive Elemente, Events, Herkunft von p5js: ist eine JavaScript Adaption von Processing, Java-Erweiterung -> kommt von Design By Numbers was prozedural. funktional und deklarativ ist. Da es sich aber ohnehin um JavaScript handelt, sind auch Objektorientierte und Funktionale Paradigmen vorhanden.
-
-## Complexity of languages
-
-### Chomsky hierarchy
-
-TODO: Read through
