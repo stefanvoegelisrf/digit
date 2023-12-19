@@ -121,8 +121,7 @@ The format pattern consists of information about the error tolerance that makes 
 The central part of a QR Code consisting of black and white modules is where the code stores the data and has blank space surrounding them to allow up to 30% of the code to be damaged.
 
 ### Facial action coding system
-
-TODO: Add FACS documentation
+The Facial Action Coding System, or short FACS, is a system to track individual muscle movements in the face and put them into so called Action Units. E.g. action unit 45 is used for blinking which involves relaxing and contracting the related muscles. There are other action units like 54, which refer to moving your head down. To describe emotions, we can combine these action units and can express emotions like happiness, where we combine action units 6 and 12.
 
 ### URL coding
 
